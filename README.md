@@ -1,4 +1,4 @@
-# Week1Day4
+# Week 1 Day 4
 Containing the Timer homework problem
 
 ## Assignment:
