@@ -3,6 +3,8 @@ package phil.homework.week1day4take2timer
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
+import android.support.v7.app.AlertDialog
+import android.util.Log
 import android.view.View
 import android.widget.Button
 import android.widget.TextView
@@ -81,9 +83,21 @@ class MainActivity : AppCompatActivity() {
             stopwatch.stop()
             btnPlayPause.text = getString(R.string.start)
             btnStopReset.text = getString(R.string.reset)
+            onTimerCompletion()
         } else {
             stopwatch.reset()
             btnPlayPause.text = getString(R.string.start)
         }
+    }
+
+    private fun onTimerCompletion(){
+        Log.d("${MainActivity::javaClass.name}_TAG", "onTimerCompletion called")
+        //CameraAlertDialogFragment()
+        AlertDialog.Builder(this).apply{
+            setMessage("Take a picture?")
+            //setPositiveButton("Take a picture!", )
+
+        }.create().show()
+
     }
 }
