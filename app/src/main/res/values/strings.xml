@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Week 1 Day 4 Take 2 Timer</string>
+    <string name="pause">Pause</string>
+    <string name="resume">Resume</string>
+    <string name="start">Start</string>
+    <string name="reset">Reset</string>
+    <string name="stop">Stop</string>
+</resources>
