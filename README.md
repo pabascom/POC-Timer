@@ -1,7 +1,6 @@
-# Week 1 Day 4
-Containing the Timer homework problem
+# Timer POC
 
-## Assignment:
+## Challenge:
 Create a Timer application
 1. Use TabLayout to show Countdown Timer and Stop Watch layouts
 2. Timers should persist on rotation
